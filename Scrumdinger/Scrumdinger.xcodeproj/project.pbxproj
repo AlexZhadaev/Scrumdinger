@@ -12,6 +12,7 @@
 		3506E6E3299A6EDC006C663C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3506E6E2299A6EDC006C663C /* CardView.swift */; };
 		356020AF299E21B0008C8E66 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356020AE299E21B0008C8E66 /* ThemeView.swift */; };
 		356020B1299E2741008C8E66 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356020B0299E2741008C8E66 /* ThemePicker.swift */; };
+		356020B3299E679B008C8E66 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356020B2299E679B008C8E66 /* MeetingHeaderView.swift */; };
 		3585D6F1299A784C004E3E87 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3585D6F0299A784C004E3E87 /* TrailingIconLabelStyle.swift */; };
 		3585D6F3299A80C4004E3E87 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3585D6F2299A80C4004E3E87 /* ScrumsView.swift */; };
 		3585D6F5299A9B14004E3E87 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3585D6F4299A9B14004E3E87 /* DetailView.swift */; };
@@ -28,6 +29,7 @@
 		3506E6E2299A6EDC006C663C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		356020AE299E21B0008C8E66 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		356020B0299E2741008C8E66 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		356020B2299E679B008C8E66 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 		3585D6F0299A784C004E3E87 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		3585D6F2299A80C4004E3E87 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		3585D6F4299A9B14004E3E87 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				3506E6E2299A6EDC006C663C /* CardView.swift */,
 				3585D6F4299A9B14004E3E87 /* DetailView.swift */,
 				35C502A529999416003132B0 /* MeetingView.swift */,
+				356020B2299E679B008C8E66 /* MeetingHeaderView.swift */,
 				3585D6F6299AB619004E3E87 /* DetailEditView.swift */,
 				356020B0299E2741008C8E66 /* ThemePicker.swift */,
 				356020AE299E21B0008C8E66 /* ThemeView.swift */,
@@ -175,6 +178,7 @@
 				356020B1299E2741008C8E66 /* ThemePicker.swift in Sources */,
 				3506E6E1299A6A9F006C663C /* DailyScrum.swift in Sources */,
 				3585D6F5299A9B14004E3E87 /* DetailView.swift in Sources */,
+				356020B3299E679B008C8E66 /* MeetingHeaderView.swift in Sources */,
 				3585D6F7299AB619004E3E87 /* DetailEditView.swift in Sources */,
 				3585D6F1299A784C004E3E87 /* TrailingIconLabelStyle.swift in Sources */,
 				3506E6DF299A666C006C663C /* Theme.swift in Sources */,
