@@ -14,6 +14,7 @@ struct ThemeView: View {
         ZStack {
             RoundedRectangle(cornerRadius: 4)
                 .fill(theme.mainColor)
+//                .padding(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10))
             Label(theme.name, systemImage: "paintpalette")
                 .padding(4)
         }

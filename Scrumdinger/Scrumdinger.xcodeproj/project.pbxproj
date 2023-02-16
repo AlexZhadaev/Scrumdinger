@@ -54,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				3506E6DE299A666C006C663C /* Theme.swift */,
-				3585D6F0299A784C004E3E87 /* TrailingIconLabelStyle.swift */,
 				3506E6E0299A6A9F006C663C /* DailyScrum.swift */,
 			);
 			path = Models;
@@ -81,13 +80,14 @@
 			children = (
 				3506E6DC299A6501006C663C /* Models */,
 				35C502A329999416003132B0 /* ScrumdingerApp.swift */,
+				3585D6F2299A80C4004E3E87 /* ScrumsView.swift */,
 				35C502A529999416003132B0 /* MeetingView.swift */,
 				3506E6E2299A6EDC006C663C /* CardView.swift */,
-				3585D6F2299A80C4004E3E87 /* ScrumsView.swift */,
 				3585D6F4299A9B14004E3E87 /* DetailView.swift */,
 				3585D6F6299AB619004E3E87 /* DetailEditView.swift */,
 				356020AE299E21B0008C8E66 /* ThemeView.swift */,
 				356020B0299E2741008C8E66 /* ThemePicker.swift */,
+				3585D6F0299A784C004E3E87 /* TrailingIconLabelStyle.swift */,
 				35C502A72999941A003132B0 /* Assets.xcassets */,
 				35C502A92999941A003132B0 /* Preview Content */,
 			);
