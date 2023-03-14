@@ -13,6 +13,7 @@
 		351715D429A66E140068BE94 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351715D329A66E140068BE94 /* History.swift */; };
 		351715D629A683030068BE94 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351715D529A683030068BE94 /* ScrumStore.swift */; };
 		3534102929C0B60E00F2A92D /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534102829C0B60E00F2A92D /* ErrorWrapper.swift */; };
+		3534102B29C0B70D00F2A92D /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534102A29C0B70D00F2A92D /* ErrorView.swift */; };
 		356020AF299E21B0008C8E66 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356020AE299E21B0008C8E66 /* ThemeView.swift */; };
 		356020B1299E2741008C8E66 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356020B0299E2741008C8E66 /* ThemePicker.swift */; };
 		356020B3299E679B008C8E66 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356020B2299E679B008C8E66 /* MeetingHeaderView.swift */; };
@@ -38,6 +39,7 @@
 		351715D329A66E140068BE94 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		351715D529A683030068BE94 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 		3534102829C0B60E00F2A92D /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		3534102A29C0B70D00F2A92D /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		356020AE299E21B0008C8E66 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		356020B0299E2741008C8E66 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		356020B2299E679B008C8E66 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				356020AE299E21B0008C8E66 /* ThemeView.swift */,
 				3585D6F0299A784C004E3E87 /* TrailingIconLabelStyle.swift */,
 				356020B4299E6FA7008C8E66 /* ScrumProgressViewStyle.swift */,
+				3534102A29C0B70D00F2A92D /* ErrorView.swift */,
 				356020BC299EA0CD008C8E66 /* Resources */,
 				35C502A72999941A003132B0 /* Assets.xcassets */,
 				35C502A92999941A003132B0 /* Preview Content */,
@@ -223,6 +226,7 @@
 				3585D6F1299A784C004E3E87 /* TrailingIconLabelStyle.swift in Sources */,
 				3506E6DF299A666C006C663C /* Theme.swift in Sources */,
 				3585D6F3299A80C4004E3E87 /* ScrumsView.swift in Sources */,
+				3534102B29C0B70D00F2A92D /* ErrorView.swift in Sources */,
 				35C502A629999416003132B0 /* MeetingView.swift in Sources */,
 				35C502A429999416003132B0 /* ScrumdingerApp.swift in Sources */,
 				356020AF299E21B0008C8E66 /* ThemeView.swift in Sources */,
@@ -363,7 +367,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -396,7 +400,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
